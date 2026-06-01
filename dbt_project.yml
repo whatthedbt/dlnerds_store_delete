@@ -29,6 +29,9 @@ seeds:
   dl_nerds:
     +schema: bronze
 
+vars:
+  country: 'US'
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -41,10 +44,23 @@ seeds:
 
 models:
   dl_nerds:
+
     bronze:
       +schema: bronze
       +enabled: true
       +materialized: table
       +tags: ['bronze']
 
+    silver:
+      +schema: silver
+      +enabled: true
+      +materialized: table
+      +tags: ['silver']
+
+
+    gold:
+      +schema: gold
+      +enabled: true
+      +materialized: view
+      +tags: ['gold']
 
