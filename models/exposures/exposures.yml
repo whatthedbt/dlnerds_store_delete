@@ -1,0 +1,17 @@
+version: 2
+
+exposures:
+
+  - name: Sales_Dashboard
+    label: Sales_Dashboard
+    type: dashboard
+    maturity: high
+    description: Dashboard for sales 
+    url: https://bi.company.com/dashboards/sales
+    owner:
+      name: M khan
+      email: hello@gmail.com
+    depends_on:
+      - ref('dim_customer')
+      - ref('dim_product')
+      - ref('fact_sales')

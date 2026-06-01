@@ -1,3 +1,11 @@
+{{
+    config(
+        materialized='incremental',
+        incremental_strategy='delete+insert',
+        unique_key='id'
+    )
+}}
+
 with cte_read_sales as(
     select customer_id, product_id, sales_date, quantity, total_amount,
     currency, created_at, updated_at from {{ source('file_system', 'sales_raw') }}
@@ -24,3 +32,6 @@ cte_calculate_sales as(
 )
 
 select * from cte_calculate_sales
+{% if is_incremental %}
+    where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}
