@@ -1,3 +1,18 @@
+{{
+    config(
+            grants = {
+        '+select': ['ACCOUNTADMIN']
+    },
+        pre_hook="
+        create table if not exists audit_log(model_name text, run_time timestamp, status text);
+        insert into audit_log(model_name, run_time, status) values('" ~ model.name ~ "', current_timestamp, 'started');
+        ",
+
+        post_hook="insert into audit_log(model_name, run_time, status) values('" ~ model.name ~ "', current_timestamp, 'completed');"
+    )
+
+}}
+
 {% set tiers=[
     {'name': 'low', 'min': 0, 'max': 29.99},
     {'name': 'mediaum', 'min': 30, 'max': 59.99},

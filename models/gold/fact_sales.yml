@@ -11,10 +11,20 @@ models:
       - name: customer_id
         data_type: varchar
         description: ""
+        tests:
+          - relationships:
+             arguments:
+              field: id
+              to: ref('dim_customer')
 
       - name: product_id
         data_type: varchar
         description: ""
+        tests:
+          - relationships:
+             arguments:
+              field: id
+              to: ref('dim_product')
 
       - name: sales_date
         data_type: date
