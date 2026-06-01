@@ -1,0 +1,45 @@
+version: 2
+       
+models:
+  - name: dim_product
+    description: ""
+    columns:
+      - name: id
+        data_type: varchar
+        description: ""
+
+      - name: name
+        data_type: varchar
+        description: ""
+
+      - name: code
+        data_type: varchar
+        description: ""
+
+      - name: category
+        data_type: varchar
+        description: ""
+
+      - name: price
+        data_type: float
+        description: ""
+
+      - name: currency
+        data_type: varchar
+        description: ""
+
+      - name: tier
+        data_type: varchar
+        description: ""
+
+      - name: color
+        data_type: varchar
+        description: ""
+
+      - name: created_at
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: updated_at
+        data_type: timestamp_ntz
+        description: ""

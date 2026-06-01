@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: sales_cleaned
+    description: ""
+    columns:
+      - name: id
+        data_type: varchar
+        description: ""
+
+      - name: customer_id
+        data_type: varchar
+        description: ""
+
+      - name: product_id
+        data_type: varchar
+        description: ""
+
+      - name: sales_date
+        data_type: date
+        description: ""
+
+      - name: quantity
+        data_type: number
+        description: ""
+
+      - name: total_amount
+        data_type: float
+        description: ""
+
+      - name: currency
+        data_type: varchar
+        description: ""
+
+      - name: created_at
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: updated_at
+        data_type: timestamp_ntz
+        description: ""

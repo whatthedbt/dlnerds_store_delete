@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'my_new_project'
+name: 'dl_nerds'
 version: '1.0.0'
 config-version: 2
 
@@ -25,6 +25,13 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 
+seeds:
+  dl_nerds:
+    +schema: bronze
+
+vars:
+  country: 'US'
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -36,7 +43,24 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  my_new_project:
-    # Applies to all files under models/example/
-    example:
+  dl_nerds:
+
+    bronze:
+      +schema: bronze
+      +enabled: true
       +materialized: table
+      +tags: ['bronze']
+
+    silver:
+      +schema: silver
+      +enabled: true
+      +materialized: table
+      +tags: ['silver']
+
+
+    gold:
+      +schema: gold
+      +enabled: true
+      +materialized: view
+      +tags: ['gold']
+

@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: customer_cleaned
+    description: ""
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: id
+        data_type: varchar
+        description: ""
+        tests:
+          - unique
+          - not_null
+              
+          
+
+      - name: name
+        data_type: varchar
+        description: ""
+
+      - name: gender
+        data_type: varchar
+        description: ""
+
+      - name: date_of_birth
+        data_type: date
+        description: ""
+
+      - name: email
+        data_type: varchar
+        description: ""
+
+      - name: country_code
+        data_type: varchar
+        description: ""
+
+      - name: city
+        data_type: varchar
+        description: ""
+
+      - name: created_at
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: updated_at
+        data_type: timestamp_ntz
+        description: ""

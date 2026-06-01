@@ -1,0 +1,13 @@
+version: 2
+  
+models:
+  - name: country_cleaned
+    description: ""
+    columns:
+      - name: country_code
+        data_type: varchar
+        description: ""
+
+      - name: country_name
+        data_type: varchar
+        description: ""

@@ -1,0 +1,31 @@
+ID,NAME,GENDER,DATEOFBIRTH,EMAIL,COUNTRY,CITY,CREATED_AT,UPDATED_AT
+c1,Lara Fitzgerald,female,05.08.02,lara.fitzgerald@email.com,,New York,2021-05-18 09:14:22.000,2021-05-18 09:14:22.000
+c2,Madison Carter,female,20.05.95,madison.carter@email.com,US,Miami,2021-06-02 14:36:10.000,2021-06-02 14:36:10.000
+c3,Cooper Harris,male,08.06.90,cooper.harris@email.com,,Las Vegas,2017-07-21 08:05:33.000,2021-08-04 10:22:41.000
+c4,Mario Schulz,male,19.12.00,mario.schulz@email.com,,Stuttgart,2021-09-10 16:48:02.000,2021-10-01 11:19:27.000
+c5,Sophie Becker,female,23.05.03,sophie.becker@email.com,DE,Munich,2022-01-06 10:27:58.000,2022-01-06 10:27:58.000
+c6,Diego Alvarez,male,02.03.78,diego.alvarez@email.com,ES,Madrid,2022-02-19 07:54:41.000,2022-02-19 07:54:41.000
+c7,Katharina Berger,female,26.07.97,katharina.berger@email.com,AT,Vienna,2022-03-28 15:09:22.000,2022-04-14 09:44:52.000
+c8,Hugo Moreau,male,20.11.02,hugo.moreau@email.com,FR,Paris,2022-06-15 12:41:09.000,2022-06-15 12:41:09.000
+c9,Thiago Almeida,male,01.12.93,thiago.almeida@email.com,BR,Rio de Janeiro,2022-08-03 11:33:50.000,2022-08-27 14:27:33.000
+c10,Emily Johnson,female,01.12.87,emily.johnson@email.com,AU,Melbourne,2022-11-01 13:58:26.000,2022-11-01 13:58:26.000
+c11,Liam Anderson,male,12.04.95,liam.anderson@email.com,US,Chicago,2021-06-01 10:15:00.000,2021-06-01 10:15:00.000
+c12,Olivia Martinez,female,23.09.98,olivia.mtz@email.com,MX,Mexico City,2021-06-02 11:20:30.000,2021-06-02 11:20:30.000
+c13,Noah Smith,male,15.01.90,noah.smith@email.com,CA,Toronto,2021-06-03 14:05:12.000,2021-06-05 09:12:44.000
+c14,Emma Watson,female,07.11.00,emma.w@email.com,GB,London,2021-06-04 08:45:19.000,2021-06-04 08:45:19.000
+c15,Oliver Müller,male,30.06.88,o.muller@email.com,DE,Berlin,2021-06-05 16:33:21.000,2021-06-05 16:33:21.000
+c16,Sophia Tanaka,female,18.05.93,s.tanaka@email.com,JP,Tokyo,2021-06-06 17:22:05.000,2021-06-07 10:00:11.000
+c17,Elijah Jones,male,02.12.85,elijah.j@email.com,AU,Sydney,2021-06-07 09:11:40.000,2021-06-07 09:11:40.000
+c18,Isabella Silva,female,14.07.97,isabella.silva@email.com,BR,São Paulo,2021-06-08 13:50:55.000,2021-06-08 13:50:55.000
+c19,Lucas Kumar,male,25.03.92,lucas.kumar@email.com,IN,Mumbai,2021-06-09 12:04:18.000,2021-06-09 12:04:18.000
+c20,Mia Rossi,female,09.10.99,mia.rossi@email.com,IT,Rome,2021-06-10 15:30:22.000,2021-06-12 14:15:30.000
+c21,Ethan Dubois,male,22.02.91,ethan.d@email.com,FR,Paris,2021-06-11 11:18:47.000,2021-06-11 11:18:47.000
+c22,Amelia Kim,female,05.05.04,amelia.kim@email.com,KR,Seoul,2021-06-12 10:05:14.000,2021-06-12 10:05:14.000
+c23,James Wilson,male,19.08.87,james.wilson@email.com,GB,Manchester,2021-06-13 16:40:00.000,2021-06-13 16:40:00.000
+c24,Harper De Jong,female,11.01.96,harper.dj@email.com,NL,Amsterdam,2021-06-14 07:55:33.000,2021-06-15 08:22:19.000
+c25,Benjamin Chen,male,28.04.94,b.chen@email.com,CN,Shanghai,2021-06-15 14:12:09.000,2021-06-15 14:12:09.000
+c26,Evelyn Garcia,female,17.03.01,evelyn.g@email.com,ES,Madrid,2021-06-16 18:25:50.000,2021-06-16 18:25:50.000
+c27,Alexander Nilsson,male,13.11.89,alex.nilsson@email.com,SE,Stockholm,2021-06-17 09:00:04.000,2021-06-17 09:00:04.000
+c28,Charlotte Taylor,female,26.06.95,charlotte.t@email.com,NZ,Auckland,2021-06-18 11:47:13.000,2021-06-19 13:05:40.000
+c29,Daniel Lim,male,04.09.03,daniel.lim@email.com,SG,Singapore,2021-06-19 15:10:22.000,2021-06-19 15:10:22.000
+c30,Ava Gross,female,21.07.92,ava.gross@email.com,CH,Zurich,2021-06-20 13:22:58.000,2021-06-20 13:22:58.000
